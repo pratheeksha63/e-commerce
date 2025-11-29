@@ -108,7 +108,7 @@ const ProductDetail = () => {
             {/* Product price in primary color */}
             <p className="text-3xl font-bold text-primary-600 mb-6">
               {/* Format price to 2 decimal places */}
-              ${product.price.toFixed(2)}
+              ₹{product.price.toFixed(2)}
             </p>
           </div>
 

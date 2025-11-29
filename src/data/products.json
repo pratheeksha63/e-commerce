@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Rose Bouquet - Red",
-    "price": 49.99,
+    "price": 490,
     "category": "roses",
     "image": "/images/rose.jpg",
     "description": "A beautiful arrangement of 12 red roses, perfect for expressing love and passion. Each rose is carefully selected and arranged by our expert florists.",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Lily Bouquet - White",
-    "price": 39.99,
+    "price": 390,
     "category": "lilies",
     "image": "/images/lily.jpg",
     "description": "Elegant white lilies arranged in a stunning bouquet. Symbolizes purity and renewal, perfect for special occasions or as a gift.",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Sunflower Bouquet",
-    "price": 34.99,
+    "price": 340,
     "category": "seasonal",
     "image": "/images/sunflower .jpg",
     "description": "Bright and cheerful sunflowers that bring sunshine into any room. A perfect gift to brighten someone's day.",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Mixed Spring Bouquet",
-    "price": 44.99,
+    "price": 499,
     "category": "mixed",
     "image": "/images/spring.jpg",
     "description": "A vibrant mix of seasonal spring flowers including tulips, daisies, and baby's breath. Fresh and colorful arrangement.",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Orchid Plant - Purple",
-    "price": 54.99,
+    "price": 599,
     "category": "plants",
     "image": "/images/orchid.jpg",
     "description": "A stunning purple orchid plant that will last for weeks. Comes in an elegant ceramic pot. Perfect for home or office decor.",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "name": "Tulip Bouquet - Pink",
-    "price": 29.99,
+    "price": 999,
     "category": "seasonal",
     "image": "/images/tulip.jpg",
     "description": "Beautiful pink tulips arranged in a classic bouquet. A symbol of perfect love and caring thoughts.",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "name": "Carnation Bouquet - Mixed Colors",
-    "price": 24.99,
+    "price": 499,
     "category": "carnations",
     "image": "/images/rosee.jpg",
     "description": "A colorful mix of carnations in various hues. Long-lasting and affordable, perfect for any occasion.",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Lavender Bouquet",
-    "price": 32.99,
+    "price": 399,
     "category": "seasonal",
     "image": "/images/lavender.jpg",
     "description": "Fragrant lavender bouquet that brings a calming and soothing aroma. Perfect for relaxation and stress relief.",
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "name": "Peony Bouquet - Pink",
-    "price": 59.99,
+    "price": 599,
     "category": "peonies",
     "image": "/images/peony.jpg",
     "description": "Luxurious pink peonies in full bloom. These delicate flowers are known for their beauty and elegance.",
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "Baby's Breath Bouquet",
-    "price": 19.99,
+    "price": 999,
     "category": "fillers",
     "image": "/images/baby.jpg",
     "description": "Delicate white baby's breath flowers perfect as a filler or standalone arrangement. Adds elegance to any setting.",

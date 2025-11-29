@@ -68,7 +68,7 @@ const Cart = () => {
               <div className="flex justify-between text-gray-600">
                 <span>Subtotal</span>
                 {/* Format total to 2 decimal places */}
-                <span className="font-semibold">${total.toFixed(2)}</span>
+                <span className="font-semibold">₹{total.toFixed(2)}</span>
               </div>
               {/* Shipping row - always shows "Free" */}
               <div className="flex justify-between text-gray-600">
@@ -79,7 +79,7 @@ const Cart = () => {
               <div className="border-t pt-3 flex justify-between text-xl font-bold text-gray-800">
                 <span>Total</span>
                 {/* Total price in primary color */}
-                <span className="text-primary-600">${total.toFixed(2)}</span>
+                <span className="text-primary-600">₹{total.toFixed(2)}</span>
               </div>
             </div>
             {/* Link to checkout page - full width button */}

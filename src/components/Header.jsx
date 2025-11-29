@@ -68,6 +68,13 @@ const Header = () => {
             >
               Products
             </Link>
+            {/* About link */}
+            <Link
+              to="/about"
+              className="text-gray-700 hover:text-primary-600 transition-colors"
+            >
+              About
+            </Link>
             {/* Orders link */}
             <Link
               to="/orders"
@@ -151,6 +158,14 @@ const Header = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Products
+              </Link>
+              {/* About link in mobile menu */}
+              <Link
+                to="/about"
+                className="text-gray-700 hover:text-primary-600 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                About
               </Link>
               {/* Orders link in mobile menu */}
               <Link

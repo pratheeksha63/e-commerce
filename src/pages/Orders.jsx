@@ -121,7 +121,7 @@ const Orders = () => {
                   {/* Order total */}
                   <div className="text-right">
                     <p className="text-sm text-primary-100 mb-1">Total</p>
-                    <p className="text-3xl font-bold">${order.total.toFixed(2)}</p>
+                    <p className="text-3xl font-bold">₹{order.total.toFixed(2)}</p>
                   </div>
                 </div>
               </div>
@@ -152,14 +152,14 @@ const Orders = () => {
                           <div>
                             <p className="font-semibold text-gray-800">{item.name}</p>
                             <p className="text-sm text-gray-600">
-                              Quantity: {item.quantity} × ${item.price.toFixed(2)}
+                              Quantity: {item.quantity} × ₹{item.price.toFixed(2)}
                             </p>
                           </div>
                         </div>
                         {/* Item subtotal */}
                         <div className="text-right">
                           <p className="font-bold text-gray-800">
-                            ${(item.price * item.quantity).toFixed(2)}
+                            ₹{(item.price * item.quantity).toFixed(2)}
                           </p>
                         </div>
                       </div>

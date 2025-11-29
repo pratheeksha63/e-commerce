@@ -103,7 +103,7 @@ const OrderSuccess = () => {
                     </span>
                     {/* Item subtotal (price × quantity) */}
                     <span className="font-semibold">
-                      ${(item.price * item.quantity).toFixed(2)}
+                      ₹{(item.price * item.quantity).toFixed(2)}
                     </span>
                   </div>
                 ))}
@@ -117,7 +117,7 @@ const OrderSuccess = () => {
             <div className="flex justify-between text-xl font-bold text-gray-800">
               <span>Total</span>
               {/* Total price in primary color */}
-              <span className="text-primary-600">${total.toFixed(2)}</span>
+              <span className="text-primary-600">₹{total.toFixed(2)}</span>
             </div>
           </div>
 

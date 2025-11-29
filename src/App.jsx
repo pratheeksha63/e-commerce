@@ -15,6 +15,7 @@ import Cart from './pages/Cart'
 import Checkout from './pages/Checkout'
 import OrderSuccess from './pages/OrderSuccess'
 import Orders from './pages/Orders'
+import About from './pages/About'
 
 // Main App component that sets up routing and layout structure
 function App() {
@@ -35,6 +36,8 @@ function App() {
               <Route path="/" element={<Home />} />
               {/* Products listing page with filters and search */}
               <Route path="/products" element={<Products />} />
+              {/* About page */}
+              <Route path="/about" element={<About />} />
               {/* Product detail page - :id is a dynamic parameter */}
               <Route path="/product/:id" element={<ProductDetail />} />
               {/* Shopping cart page */}

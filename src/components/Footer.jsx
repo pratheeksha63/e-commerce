@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       
       {/* Container with max width, centered, and padding */}
-      <div className="container mx-auto px-4 py-12 relative z-10">
+      <div id="site-footer" className="container mx-auto px-4 py-12 relative z-10">
         {/* Grid layout: 1 column on mobile, 3 columns from md breakpoint */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           {/* About section */}

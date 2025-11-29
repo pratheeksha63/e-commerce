@@ -63,7 +63,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         {/* Product price with primary color styling */}
         <p className="text-primary-600 font-bold text-xl mb-4">
           {/* Format price to 2 decimal places */}
-          ${product.price.toFixed(2)}
+          ₹{product.price.toFixed(2)}
         </p>
         {/* Add to Cart button - positioned at bottom using mt-auto */}
         <button

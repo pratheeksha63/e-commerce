@@ -43,7 +43,7 @@ const CartItem = ({ item }) => {
           {item.name}
         </Link>
         {/* Product price per unit */}
-        <p className="text-primary-600 font-bold">${item.price.toFixed(2)}</p>
+        <p className="text-primary-600 font-bold">₹{item.price.toFixed(2)}</p>
       </div>
 
       {/* Quantity controls section */}
@@ -75,7 +75,7 @@ const CartItem = ({ item }) => {
         {/* Total price for this item (price * quantity) */}
         <p className="font-bold text-gray-800">
           {/* Calculate and format total: item price times quantity */}
-          ${(item.price * item.quantity).toFixed(2)}
+          ₹{(item.price * item.quantity).toFixed(2)}
         </p>
         {/* Remove item button with red styling */}
         <button
