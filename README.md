@@ -167,7 +167,7 @@ Add or modify products in `src/data/products.json`. Each product should have:
 
 ## License
 
-This project is open source and available for educational purposes.
+This project is proprietary and not licensed for reuse, redistribution, or derivative works without explicit permission from the repository owner. For permission requests, contact the project owner via the GitHub repository.
 
 ---
 
