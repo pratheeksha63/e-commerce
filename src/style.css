@@ -1,0 +1,29 @@
+/* Tailwind CSS Directives */
+/* These directives tell Tailwind where to inject its base styles, components, and utility classes */
+
+/* Inject Tailwind's base styles (resets, defaults) */
+@tailwind base;
+
+/* Inject Tailwind's component classes */
+@tailwind components;
+
+/* Inject Tailwind's utility classes */
+@tailwind utilities;
+
+/* Custom Base Layer Styles */
+/* Styles defined here will be in the base layer and can be overridden by utilities */
+@layer base {
+  /* Apply default text color and background to body element */
+  body {
+    /* Gray-900 text color for dark text */
+    @apply text-gray-900 bg-gray-50;
+  }
+}
+
+/* Custom Animations */
+@layer utilities {
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+}
